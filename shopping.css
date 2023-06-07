@@ -1,0 +1,147 @@
+.logo{
+    font-weight: bold;
+    padding-left: 2em;
+    margin-top: 15px;
+}
+.navbar{
+    font-weight: bold;
+}
+.navbar-cart{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 35px;
+    
+}
+.navbar-nav{
+   
+    font-size: 25px;
+    padding-right: 35px;
+    
+}
+.navbar-home{
+    text-decoration: none;
+    color: white;
+}
+.d-flex{
+    width: 30em;
+
+}
+.navbar-btn{
+    color: white;
+    border-color: white;
+}
+section{
+    padding-top: 150px;;
+}
+.card{
+    margin-bottom: 10px;
+
+}
+.section-title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.cart-btn{
+    background-color: green;
+    color: white;
+
+}
+.description{
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+      
+}
+.left-cart{
+    width: 15%;
+    
+    float: left;
+    height: 100%;
+}
+.middle-cart{
+    width: 60%;
+    float: left;
+    height: 100%;
+}
+.price-cart{
+    width: 20%;
+    float: left;
+    padding-top: 2em;
+    font-weight: bold;
+    height: 100%;
+}
+.right-cart{
+    width: 5%;
+    padding-top: 1.5em;
+    float: left;
+    height: 100%;
+}
+.image-cart{
+    max-width: 90%;
+    max-height: 90%;
+}
+.item-title{
+    width: 100%;
+    height: 70%;
+}
+.middle-bottom{
+    margin: auto;
+}
+.plus{
+    margin-left: 161px;
+    margin-top: -40px;
+}
+.delete{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+.value{
+    margin-top: 8px;
+    margin-left: -79px;
+    font-weight: bold;
+}
+.table-total{
+    margin: auto;
+}
+.invoice{
+    margin-left: 225px;
+}
+.invoice-heading{
+    font-weight: bold;
+}
+.invoice-title{
+    padding-top: 6px;
+    text-align: center;
+}
+.invoice-quantity{
+    padding-top: 6px;
+    text-align: center;
+}
+.invoice-price{
+    padding-top: 6px;
+    text-align: center;
+}
+.invoice-table{
+    width: 40%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+.bill-row{
+    height: 3em;
+
+}
+.bill-payment{
+    margin-left: 69em;
+    margin-top: 2em;
+}
+.clear{
+
+    margin-left: 100px;
+}

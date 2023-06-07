@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping </title>
+    <link href="shopping.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class="bg-light">
+    <header class="col-md-12" style="position: fixed; z-index: 1;">
+        <div class="row bg-info text-white p-4">
+            <div class="col-md-6">
+                
+                <h2 class="logo">Shopify.com</h2>
+            </div>
+            <div class="col-md-6">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-cart nav-link active " href="#cart-section">Cart</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active navbar-home" aria-current="page" href="#">Home</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success text-white border border-white border-white" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+    <section class="bg-light">
+
+          <div class=" col-8 bg-light" style="float: left;">
+            <h2 class="p-4 section-title">Products</h2>
+            <div id="products" class="row"  style="float: left;">
+                
+            
+            </div>
+          </div>
+          <div class="col-4 bg-light border border-grey" id="cart-section" style="float: left;">
+            <div class="p-4">
+              <h2 class="p-4 section-title">Cart </h2>
+              <div id="cart" class="row">
+
+              </div>
+              <div id="total" class="bg-light">
+                
+              </div>
+              <tr>
+                <td></td><button type="button" class="btn btn-danger clear" id="clear" >Clear</button></td>
+                <td><button type="button" class="btn btn-dark invoice" id="invoice" >Invoice</button></td>
+                
+              </tr>
+            </div>
+          </div>
+            
+        
+    </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="shopping.js"></script>
+
+</body>
+</html>
